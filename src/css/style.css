@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Manrope-Light';
+  src: url("../font/Manrope-Light.ttf");
+}
+
+@font-face {
+  font-family: 'Manrope-Regular';
+  src: url("../font/Manrope-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Manrope-Medium';
+  src: url("../font/Manrope-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'Manrope-Bold';
+  src: url("../font/Manrope-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Manrope-SemiBold';
+  src: url("../font/Manrope-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: 'Manrope-ExtraBold';
+  src: url("../font/Manrope-ExtraBold.ttf");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 85px;
+  background-color: #fff;
+}
+
+.container .header .logo {
+  height: 70px;
+  width: 325px;
+  margin: 0 0 0 100px;
+  background-image: url("../img/logo.png");
+}
+
+.container .header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 385px;
+  margin: 0 0 0 110px;
+}
+
+.container .header .menu a {
+  font-family: 'Manrope-Medium';
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+}
