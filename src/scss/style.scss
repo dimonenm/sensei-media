@@ -599,6 +599,7 @@
           &-title {
             display: flex;
             flex-direction: column;
+            height: 227px;
 
             padding: 10px 25px 25px 25px;
 
@@ -611,13 +612,29 @@
             font-size: 16px;
             line-height: 26px;
             color: #333333;
+
+            .card-title-img {
+              display: flex;
+              align-items: center;
+
+              flex-basis: 125px;
+
+              .Alibaba_Logo {
+                height: 112px;
+                width: 150px;
+              }
+              .Macy_Logo {
+                height: 60px;
+                width: 225px;
+              }
+            }
           }
 
           &-result {
             display: flex;
             flex-direction: column;
 
-            padding: 0 30px 0 30px;
+            padding: 0 25px 25px 25px;
 
             font-family: "Manrope-Regular";
             font-weight: 800;
@@ -635,12 +652,33 @@
               margin: 10px 0 0;
 
               .title-item {
-                
                 span {
                   font-weight: 400;
+                  font-size: 16px;
                   line-height: 26px;
                 }
               }
+            }
+          }
+          &-system {
+            display: flex;
+            flex-direction: column;
+            // height: 100%;
+
+            padding: 25px;
+
+            background-color: #fff;
+            border-radius: 0 0 15px 15px;
+
+            font-family: "Manrope-ExtraBold";
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #333333;
+
+            &-imgs {
+              margin: 10px 0 0;
             }
           }
         }
@@ -657,6 +695,38 @@
         width: 40px;
         background-image: url("../img/ep_arrow-right-bold.png");
       }
+    }
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 365px;
+
+    width: 100%;
+
+    margin: 90px 0 0;
+
+    background-color: #fff;
+
+    &-white {
+      display: flex;
+
+      height: 325px;
+    }
+    &-dark {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      height: 40px;
+
+      background-color: #2d2d2d;
+
+      font-family: "Manrope-Regular";
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 36px;
+      color: #ffffff;
     }
   }
 }

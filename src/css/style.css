@@ -687,6 +687,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 227px;
   padding: 10px 25px 25px 25px;
   background-color: #fff;
   border-radius: 15px 15px 0 0;
@@ -697,6 +698,27 @@
   color: #333333;
 }
 
+.container .cases-slider-cards .card-title .card-title-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 125px;
+      flex-basis: 125px;
+}
+
+.container .cases-slider-cards .card-title .card-title-img .Alibaba_Logo {
+  height: 112px;
+  width: 150px;
+}
+
+.container .cases-slider-cards .card-title .card-title-img .Macy_Logo {
+  height: 60px;
+  width: 225px;
+}
+
 .container .cases-slider-cards .card-result {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -705,7 +727,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 0 30px 0 30px;
+  padding: 0 25px 25px 25px;
   font-family: "Manrope-Regular";
   font-weight: 800;
   font-size: 18px;
@@ -726,7 +748,31 @@
 
 .container .cases-slider-cards .card-result .title-items .title-item span {
   font-weight: 400;
+  font-size: 16px;
   line-height: 26px;
+}
+
+.container .cases-slider-cards .card-system {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 0 0 15px 15px;
+  font-family: "Manrope-ExtraBold";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.container .cases-slider-cards .card-system-imgs {
+  margin: 10px 0 0;
 }
 
 .container .cases-slider-left_btn {
@@ -741,4 +787,45 @@
   height: 40px;
   width: 40px;
   background-image: url("../img/ep_arrow-right-bold.png");
+}
+
+.container .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 365px;
+      flex-basis: 365px;
+  width: 100%;
+  margin: 90px 0 0;
+  background-color: #fff;
+}
+
+.container .footer-white {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 325px;
+}
+
+.container .footer-dark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  background-color: #2d2d2d;
+  font-family: "Manrope-Regular";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 36px;
+  color: #ffffff;
 }
