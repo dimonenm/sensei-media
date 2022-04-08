@@ -808,7 +808,95 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 325px;
+}
+
+.container .footer-white-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1200px;
+  font-family: "Manrope-Regular";
+  font-size: 16px;
+  color: #333333;
+}
+
+.container .footer-white-wrapper .logo2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 50px 0 0;
+}
+
+.container .footer-white-wrapper .logo2 p {
+  margin-top: 5px;
+  font-weight: 400;
+  line-height: 24px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.container .footer-white-wrapper .logo2 .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 205px;
+  margin-top: 20px;
+  padding: 15px 40px;
+  background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
+  border-radius: 9px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.container .footer-white-wrapper .information,
+.container .footer-white-wrapper .serveses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 70px;
+}
+
+.container .footer-white-wrapper .footer-white-title {
+  font-weight: 600;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.container .footer-white-wrapper .footer-white-list {
+  font-weight: 400;
+  line-height: 36px;
+  list-style: none;
+}
+
+.container .footer-white-wrapper .footer-white-list a {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: 36px;
+  color: inherit;
+  text-decoration: none;
 }
 
 .container .footer-dark {
